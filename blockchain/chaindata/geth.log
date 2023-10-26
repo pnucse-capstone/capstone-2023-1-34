@@ -1,0 +1,73 @@
+INFO [05-25|21:44:54.235] Maximum peer count                       ETH=0 LES=0 total=0
+INFO [05-25|21:44:54.369] Set global gas cap                       cap=50,000,000
+INFO [05-25|21:44:54.372] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [05-25|21:44:54.373] Using leveldb as the backing database 
+INFO [05-25|21:44:54.373] Allocated cache and file handles         database=F:\2023_pnu_cse\chaindata\geth\chaindata cache=512.00MiB handles=8192
+INFO [05-25|21:44:54.539] Using LevelDB as the backing database 
+INFO [05-25|21:44:55.005] Opened ancient database                  database=F:\2023_pnu_cse\chaindata\geth\chaindata\ancient/chain readonly=false
+INFO [05-25|21:44:55.007] Disk storage enabled for ethash caches   dir=F:\2023_pnu_cse\chaindata\geth\ethash count=3
+INFO [05-25|21:44:55.019] Disk storage enabled for ethash DAGs     dir=C:\Users\82103\AppData\Local\Ethash   count=2
+INFO [05-25|21:44:55.020] Initialising Ethereum protocol           network=4649 dbversion=<nil>
+INFO [05-25|21:44:55.021] Writing default main-net genesis block 
+INFO [05-25|21:44:55.507] Persisted trie from memory database      nodes=12356 size=1.78MiB time=62.9203ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-25|21:44:55.552]  
+INFO [05-25|21:44:55.552] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-25|21:44:55.552] Chain ID:  1 (mainnet) 
+INFO [05-25|21:44:55.552] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work) 
+INFO [05-25|21:44:55.552]  
+INFO [05-25|21:44:55.552] Pre-Merge hard forks (block based): 
+INFO [05-25|21:44:55.552]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [05-25|21:44:55.552]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md) 
+INFO [05-25|21:44:55.552]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [05-25|21:44:55.552]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-25|21:44:55.552]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-25|21:44:55.552]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [05-25|21:44:55.552]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [05-25|21:44:55.552]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [05-25|21:44:55.552]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [05-25|21:44:55.552]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [05-25|21:44:55.552]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [05-25|21:44:55.552]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [05-25|21:44:55.552]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [05-25|21:44:55.552]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [05-25|21:44:55.552]  
+INFO [05-25|21:44:55.552] Merge configured: 
+INFO [05-25|21:44:55.552]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [05-25|21:44:55.552]  - Network known to be merged: true 
+INFO [05-25|21:44:55.552]  - Total terminal difficulty:  58750000000000000000000 
+INFO [05-25|21:44:55.552]  
+INFO [05-25|21:44:55.552] Post-Merge hard forks (timestamp based): 
+INFO [05-25|21:44:55.552]  - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md) 
+INFO [05-25|21:44:55.552]  
+INFO [05-25|21:44:55.552] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-25|21:44:55.552]  
+INFO [05-25|21:44:55.553] Loaded most recent local block           number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=54y2mo2d
+WARN [05-25|21:44:55.553] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [05-25|21:44:55.553] Rebuilding state snapshot 
+INFO [05-25|21:44:55.553] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=0s
+INFO [05-25|21:44:55.555] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-25|21:44:55.556] Chain post-merge, sync via beacon client 
+INFO [05-25|21:44:55.556] Gasprice oracle is ignoring threshold set threshold=2
+WARN [05-25|21:44:55.557] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [05-25|21:44:55.557] Engine API enabled                       protocol=eth
+INFO [05-25|21:44:55.557] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/windows-amd64/go1.20.3
+INFO [05-25|21:44:55.613] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB dangling=0 elapsed=59.443ms
+INFO [05-25|21:44:55.802] New local node record                    seq=1,685,018,695,792 id=0b4eeaade2591dd6 ip=127.0.0.1 udp=0 tcp=30303
+INFO [05-25|21:44:55.802] Started P2P networking                   self="enode://6f9685157e421e5a236543c302fc66dd36cfb1c4139ef7e10b9d63dc38a5221bd1dd30b6b55901acdfe8650232c88443dae6dc979f0bbd7f988f9a303917ac49@127.0.0.1:30303?discport=0"
+INFO [05-25|21:44:55.805] IPC endpoint opened                      url=\\.\pipe\geth.ipc
+INFO [05-25|21:44:55.808] Generated JWT secret                     path=F:\2023_pnu_cse\chaindata\geth\jwtsecret
+INFO [05-25|21:44:55.820] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [05-25|21:44:55.820] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+WARN [05-25|21:44:55.899] Served eth_coinbase                      reqid=3 duration=0s err="etherbase must be explicitly specified"
+INFO [05-25|21:44:58.889] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv2-IP1"
+WARN [05-25|21:45:30.575] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+WARN [05-25|21:50:31.064] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [05-25|21:51:46.521] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [05-25|21:51:46.521] IPC endpoint closed                      url=\\.\pipe\geth.ipc
+INFO [05-25|21:51:46.521] Ethereum protocol stopped 
+INFO [05-25|21:51:46.521] Transaction pool stopped 
+INFO [05-25|21:51:46.522] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [05-25|21:51:46.522] Persisted trie from memory database      nodes=0     size=0.00B   time=0s        gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-25|21:51:46.522] Writing clean trie cache to disk         path=F:\2023_pnu_cse\chaindata\geth\triecache threads=4
+INFO [05-25|21:51:46.569] Persisted the clean trie cache           path=F:\2023_pnu_cse\chaindata\geth\triecache elapsed=46.912ms
+INFO [05-25|21:51:46.569] Blockchain stopped 
